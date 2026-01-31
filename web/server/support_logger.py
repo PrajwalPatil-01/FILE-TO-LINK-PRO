@@ -2,7 +2,7 @@ import logging
 import sys
 import traceback
 
-SUPPORT = "https://t.me/AV_SUPPORT_GROUP"
+SUPPORT = "https://t.me/TenxHubBackup"
 
 # ANSI Colors for Terminal Highlighting
 class Colors:
@@ -45,7 +45,7 @@ def setup_support_logger():
     """
     Sets up the logger with the custom formatter
     """
-    logger = logging.getLogger("WebavBot_Support")
+    logger = logging.getLogger("WebxpBot_Support")
     logger.setLevel(logging.INFO)
 
     # Console Handler (Terminal Output)
