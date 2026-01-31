@@ -66,14 +66,14 @@ files = glob.glob(ppath)
 # ===============================
 async def Webav_start():
     print("\n")
-    print("Credit - Telegram @BOT_OWNER26")
+    print("Credit - Telegram @TenxHubBackup")
 
     try:
         # 1. Initialize additional clients
         await initialize_clients()
 
         # 2. Start the main bot
-        print("Starting WebavBot...")
+        print("Starting WebxpBot...")
         await WebavBot.start()
 
         bot_info = await WebavBot.get_me()
@@ -178,3 +178,4 @@ if __name__ == "__main__":
         logging.info("Service Stopped Bye 👋")
     except Exception:
         logger.critical("CRITICAL RUNTIME ERROR", exc_info=True)
+
