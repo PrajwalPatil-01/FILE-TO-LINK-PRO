@@ -164,8 +164,8 @@ class script(object):
     ABOUT_TXT = """<b>╔══❰ {} ❱═════❍
 ║╭━━━━━━━━━━━━━━━━━━➣
 ║┣⪼🤖 ᴍʏ ɴᴀᴍᴇ : {}
-║┣⪼👦 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/AV_OWNER_BOT'>ᴀᴠ ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
-║┣⪼❣️ ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/AV_BOTz_UPDATE>ᴀᴠ ʙᴏᴛᴢ</a>
+║┣⪼👦 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TenxHubBackup'>ᴄʜᴀᴛ ᴏᴡɴᴇʀ</a>
+║┣⪼❣️ ᴜᴘᴅᴀᴛᴇ : <a href=https://t.me/TenxHubBackup>xp ʙᴏᴛᴢ</a>
 ║┣⪼⏲️ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :- {}
 ║┣⪼📡 ʜᴏsᴛᴇᴅ ᴏɴ : ᴋᴏʏᴇʙ 
 ║┣⪼🗣️ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
