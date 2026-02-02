@@ -26,7 +26,7 @@ OWNER_USERNAME = environ.get("OWNER_USERNAME", 'xp_prajwal')
 # =========================================================
 # 🗄️ DATABASE CONNECTION
 # =========================================================
-DB_URL = environ.get('DATABASE_URI', "")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://XP_Bot:XP_Bot@cluster0.kmhq8aq.mongodb.net/?appName=Cluster0")
 DB_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # =========================================================
