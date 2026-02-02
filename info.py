@@ -50,8 +50,8 @@ AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str el
 # =========================================================
 CHANNEL = environ.get('CHANNEL', 'https://t.me/TenxHubBackup')
 SUPPORT = environ.get('SUPPORT', 'https://t.me/TenxHubBackup')
-TUTORIAL_LINK_1 = environ.get('TUTORIAL_LINK_1', '')
-TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', '')
+TUTORIAL_LINK_1 = environ.get('TUTORIAL_LINK_1', 'https://t.me/TenxHubBackup')
+TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/TenxHubBackup')
 
 # =========================================================
 # 🔐 VERIFICATION & SHORTENER
@@ -89,8 +89,8 @@ BATCH_LIMIT = int(environ.get('BATCH_LIMIT', 60))
 # =========================================================
 # 🖼️ MEDIA & CAPTIONS
 # =========================================================
-QR_CODE = environ.get('QR_CODE', 'https://')
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://ibb.co/DgwtF4gX")
+QR_CODE = environ.get('QR_CODE', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL2TtpgJdweaEbLRmvnBRv7aWEjGrh7wAC1w9rG-ydAVQ80KjqYt-zLAEAAwIAA3gAAzgE')
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/8tDz8x0')
 PICS = environ.get('PICS', 'https://ibb.co/8tDz8x0')
 FILE_PIC = environ.get('FILE_PIC', 'https://ibb.co/SDrWNqjJ')
