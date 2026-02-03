@@ -124,7 +124,7 @@ if custom_url:
     URL = custom_url
 else:
     FQDN = getenv("FQDN", BIND_ADDRESS)
-    PROTOCOL = "https://vague-maisie-prajwalpatil-332795f2.koyeb.app/" if HAS_SSL else "https"
+    PROTOCOL = "https" if HAS_SSL else "https"
     PORT_SEGMENT = "https://vague-maisie-prajwalpatil-332795f2.koyeb.app/" if NO_PORT else f":{PORT}"
     URL = f"{PROTOCOL}://{FQDN}{PORT_SEGMENT}/"
 
