@@ -89,7 +89,7 @@ BATCH_LIMIT = int(environ.get('BATCH_LIMIT', 60))
 # =========================================================
 # 🖼️ MEDIA & CAPTIONS
 # =========================================================
-QR_CODE = environ.get('QR_CODE', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL2TtpgJdweaEbLRmvnBRv7aWEjGrh7wAC1w9rG-ydAVQ80KjqYt-zLAEAAwIAA3gAAzgE')
+QR_CODE = environ.get('QR_CODE', 'https://img.sanishtech.com/u/d1b5b187810c75d121b4acbf7ab6bde8.jpg')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/8tDz8x0')
 PICS = environ.get('PICS', 'https://ibb.co/8tDz8x0')
