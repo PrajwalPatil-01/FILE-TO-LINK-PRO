@@ -56,25 +56,25 @@ TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/TenxHubBackup')
 # =========================================================
 # 🔐 VERIFICATION & SHORTENER
 # =========================================================
-IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), True)
+IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
 IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "False"), True)
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', "True"), True)
 
 # Verification Config
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60)) # In Minutes/Hours based on logic
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'mdiskshortner.link')
-SHORTLINK_API = environ.get('SHORTLINK_API', '96a3c0e8ae1b1abd429906762e38a40d3f2ec56c')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://cuty.io')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0ba43bce4319bdae31dcea16542c69f97b6ffc62')
 
 # Second Verification Config
-SHORTLINK_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "mdiskshortner.link")
-SHORTLINK_API2 = environ.get("SHORTENER_API2", "96a3c0e8ae1b1abd429906762e38a40d3f2ec56c")
+SHORTLINK_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "https://cuty.io")
+SHORTLINK_API2 = environ.get("SHORTENER_API2", "0ba43bce4319bdae31dcea16542c69f97b6ffc62")
 
 # =========================================================
 # ⚙️ SETTINGS & LIMITS
 # =========================================================
 FSUB = is_enabled(environ.get("FSUB", "True"), True)
 ENABLE_LIMIT = is_enabled(environ.get("ENABLE_LIMIT", "True"), True)
-MAINTENANCE_MODE = is_enabled(environ.get("MAINTENANCE_MODE", "True"), False)
+MAINTENANCE_MODE = is_enabled(environ.get("MAINTENANCE_MODE", "False"), False)
 
 # Time & Rate Limits
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
