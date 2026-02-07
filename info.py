@@ -57,7 +57,7 @@ TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/TenxHubBackup')
 # 🔐 VERIFICATION & SHORTENER
 # =========================================================
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
-IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "False"), True)
+IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "True"), True)
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', "True"), True)
 
 # Verification Config
@@ -89,7 +89,7 @@ BATCH_LIMIT = int(environ.get('BATCH_LIMIT', 60))
 # =========================================================
 # 🖼️ MEDIA & CAPTIONS
 # =========================================================
-QR_CODE = environ.get('QR_CODE', 'https://img.sanishtech.com/u/d1b5b187810c75d121b4acbf7ab6bde8.jpg')
+QR_CODE = environ.get('QR_CODE', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL2TtpgJdweaEbLRmvnBRv7aWEjGrh7wAC1w9rG-ydAVQ80KjqYt-zLAEAAwIAA3gAAzgE')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/8tDz8x0')
 PICS = environ.get('PICS', 'https://ibb.co/8tDz8x0')
