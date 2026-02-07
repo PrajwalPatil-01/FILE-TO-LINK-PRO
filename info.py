@@ -57,7 +57,7 @@ TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/TenxHubBackup')
 # 🔐 VERIFICATION & SHORTENER
 # =========================================================
 IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
-IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "False"), True)
+IS_SECOND_VERIFY = is_enabled(environ.get("IS_SECOND_VERIFY", "True"), True)
 IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', "True"), True)
 
 # Verification Config
