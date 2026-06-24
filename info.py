@@ -37,9 +37,9 @@ BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003531139586'))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003531139586'))
 
 # Feature Specific Logs
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003531139586'))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003531139586'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003665059068"))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", '-1003625964837'))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003625964837'))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003610088314"))
 
 # Auth Channels (Safe Parsing)
 auth_channel_str = environ.get("AUTH_CHANNEL", "-1003665059068")
@@ -49,7 +49,7 @@ AUTH_CHANNEL = [int(x) for x in auth_channel_str.split()] if auth_channel_str el
 # 🔗 LINKS & URLS
 # =========================================================
 CHANNEL = environ.get('CHANNEL', 'https://t.me/TenxHubBackup')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/TenxHubBackup')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/TenxHubSupport-1003665059068')
 TUTORIAL_LINK_1 = environ.get('TUTORIAL_LINK_1', 'https://t.me/TenxHubBackup')
 TUTORIAL_LINK_2 = environ.get('TUTORIAL_LINK_2', 'https://t.me/TenxHubBackup')
 
@@ -62,19 +62,19 @@ IS_SHORTLINK = is_enabled(environ.get('IS_SHORTLINK', "True"), True)
 
 # Verification Config
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60)) # In Minutes/Hours based on logic
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'cuty.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0ba43bce4319bdae31dcea16542c69f97b6ffc62')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks')
+SHORTLINK_API = environ.get('SHORTLINK_API', '0f1d6d5ca38f5ff53fe4b15fe822228543720a56')
 
 # Second Verification Config
-SHORTLINK_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "cuty.io")
-SHORTLINK_API2 = environ.get("SHORTENER_API2", "0ba43bce4319bdae31dcea16542c69f97b6ffc62")
+SHORTLINK_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "arolinks")
+SHORTLINK_API2 = environ.get("SHORTENER_API2", "0f1d6d5ca38f5ff53fe4b15fe822228543720a56")
 
 # =========================================================
 # ⚙️ SETTINGS & LIMITS
 # =========================================================
 FSUB = is_enabled(environ.get("FSUB", "True"), True)
 ENABLE_LIMIT = is_enabled(environ.get("ENABLE_LIMIT", "True"), True)
-MAINTENANCE_MODE = is_enabled(environ.get("MAINTENANCE_MODE", "False"), False)
+MAINTENANCE_MODE = is_enabled(environ.get("MAINTENANCE_MODE", "True"), False)
 
 # Time & Rate Limits
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
@@ -83,13 +83,13 @@ SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
 RATE_LIMIT_TIMEOUT = int(environ.get("RATE_LIMIT_TIMEOUT", "600"))
 
 # File Limits
-MAX_FILES = int(environ.get("MAX_FILES", "5"))
-BATCH_LIMIT = int(environ.get('BATCH_LIMIT', 60))
+MAX_FILES = int(environ.get("MAX_FILES", "10"))
+BATCH_LIMIT = int(environ.get('BATCH_LIMIT', 120))
 
 # =========================================================
 # 🖼️ MEDIA & CAPTIONS
 # =========================================================
-QR_CODE = environ.get('QR_CODE', 'https://radare.arzfun.com/api/tg/photo?id=AgACAgUAAxkBAAEL2TtpgJdweaEbLRmvnBRv7aWEjGrh7wAC1w9rG-ydAVQ80KjqYt-zLAEAAwIAA3gAAzgE')
+QR_CODE = environ.get('QR_CODE', 'https://kappa.lol/YDRort')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/8tDz8x0')
 PICS = environ.get('PICS', 'https://ibb.co/8tDz8x0')
@@ -102,7 +102,7 @@ FILE_CAPTION = environ.get('FILE_CAPTION', script.CAPTION)
 # =========================================================
 WORKERS = int(getenv('WORKERS', '4'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'xpbotz'))
+name = str(environ.get('name', '10xHuB'))
 
 # Heroku & Port Config
 if 'DYNO' in environ:
