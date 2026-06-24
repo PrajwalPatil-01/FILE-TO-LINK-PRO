@@ -124,9 +124,9 @@ else:
     FQDN = getenv("FQDN", BIND_ADDRESS)
     PROTOCOL = "https" if HAS_SSL else "http"
     PORT_SEGMENT = "" if NO_PORT else f":{PORT}"
-    URL = f"https://vague-maisie-prajwalpatil-332795f2.koyeb.app/"
+    URL = f"zestful-connie-prajwalpatil-1f634d34.koyeb.app/"
 
 # Default fallback if nothing works (Matches your provided koyeb link)
 if not URL or URL == "/":
-    URL = "https://vague-maisie-prajwalpatil-332795f2.koyeb.app/"
+    URL = "zestful-connie-prajwalpatil-1f634d34.koyeb.app/"
     
